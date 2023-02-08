@@ -54,10 +54,137 @@ body {
   margin-top: 50px;
 }
 
-
-  /* main css */
+/* main css */
 
 .main {
-  background-color: white;
   height: 100vh;
+  display: grid;
+  grid-template-rows: 20% 80%;
+}
+
+.header {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 5px 50px;
+}
+
+.form-input {
+  width: 600px;
+  height: 25px;
+  background-color: #cbd5e1;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+  margin-left: 20px;
+  margin-right: 200px;
+}
+
+.pp1 {
+  width: 40px;
+  border-radius: 20px;
+  margin: 0 20px;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin: 20px 50px;
+}
+
+.left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.pp2 {
+  width: 50px;
+  border-radius: 30px;
+  margin-right: 15px;
+}
+
+.welcome-text p {
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+h3 {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.right {
+  margin-left: 420px;
+}
+
+.btn {
+  color: white;
+  background-color: #0ea5e9;
+  border-radius: 20px;
+  border: 1px solid #0ea5e9;
+  box-shadow: none;
+
+  padding: 0px;
+  height: 30px;
+  width: 70px;
+  margin-right: 38px;
+  margin-top: 20px;
+}
+
+.content {
+  background-color: #cbd5e1;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  border-top: 2px solid rgb(196, 206, 210);
+  box-shadow: 5px 10px;
+}
+
+.projects h4 {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  color: rgb(31, 31, 31);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.my-card {
+  background-color: white;
+  border-left: 5px solid rgb(255, 213, 0);
+  border-radius: 10px;
+  width: 85%;
+  margin: 10px 0;
+  margin-left: 20px;
+  height: 120px;
+
+  padding-left: 10px;
+
+  padding-top: 10px;
+}
+
+.my-card h6 {
+  padding-bottom: 10px;
+  font-size: 15px;
+  color: rgb(61, 59, 59);
+}
+.my-card p {
+  font-size: 13px;
+  color: rgb(91, 90, 90);
+  font-style: italic;
+}
+
+.ic {
+  display: flex;
+  flex-direction: row;
+  margin-left: 300px;
 }
